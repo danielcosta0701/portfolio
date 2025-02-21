@@ -15,7 +15,7 @@ export default function Home() {
             </div>
 
             <div className="col-span-full md:col-span-6">
-              <h1 className="scroll-m-20 text-6xl font-bold tracking-tight lg:text-4xl">
+              <h1 className="scroll-m-20 text-6xl font-bold tracking-tight lg:text-6xl">
                 Haaron Santana
               </h1>
             </div>
