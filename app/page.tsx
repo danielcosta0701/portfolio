@@ -1,6 +1,6 @@
-import images from "../../data/images";
-import experiences from "../../data/experiences";
-import contacts from "../../data/contacts";
+import images from "@/data/images";
+import experiences from "@/data/experiences";
+import contacts from "@/data/contacts";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
             </div>
 
             <div className="col-span-full md:col-span-6">
-              <h1 className="scroll-m-20 text-6xl font-bold tracking-tight lg:text-5xl">
+              <h1 className="scroll-m-20 text-6xl font-bold tracking-tight lg:text-4xl">
                 Haaron Santana
               </h1>
             </div>
@@ -92,7 +92,7 @@ export default function Home() {
             </div>
               
             <div className="col-span-full">
-              <dl className="flex flex-col md:flex-row gap-6 md:gap-8">
+              <dl className="flex flex-col md:flex-row gap-4 md:gap-8">
                 {contacts.map((contact, index) => (
                   <div key={index} className="space-y-1">
                     <dt className="font-semibold text-[#6A6B71]">{contact.label}</dt>
