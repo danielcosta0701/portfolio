@@ -1,5 +1,5 @@
 import images from "@/data/images";
-import experiences from "@/data/experiences";
+// import experiences from "@/data/experiences";
 import contacts from "@/data/contacts";
 import Image from "next/image";
 
@@ -63,7 +63,7 @@ export default function Home() {
                 { /* image */}
               </div>
 
-              <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+              {/* <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
                 Experiência
               </h3>
 
@@ -77,7 +77,7 @@ export default function Home() {
                     <p className="leading-7 mt-2">{experience.description}</p>
                   </div>
                 ))}
-              </dl>
+              </dl> */}
             </div>
           </div>
         </section>

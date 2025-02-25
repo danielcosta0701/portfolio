@@ -1,19 +1,19 @@
 const contacts = [
   {
-    label: "Email",
-    value: "contato@email.com",
+    label: "E-mail",
+    value: "ilustrafoco@gmail.com",
     type: "email",
   },
   {
     label: "Telefone",
-    value: "+55 11 99999-9999",
+    value: "(11) 94908-5999",
     type: "tel",
   },
   { 
-    label: "LinkedIn",
-    value: "linkedin.com/in/seuperfil",
+    label: "Instagram",
+    value: "@ilustrafoco",
     type: "url",
-    url: "https://linkedin.com/in/seuperfil",
+    url: "https://instagram.com/ilustrafoco",
   },
 ];
 
