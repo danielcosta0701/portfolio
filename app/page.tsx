@@ -10,8 +10,14 @@ export default function Home() {
       <main className="bg-off-white">
         <section className="min-h-dvh flex">
           <div className="flex-1 grid grid-cols-2 grid-rows-[1fr] gap-4 px-4 py-8 md:grid-cols-12">
-            <div className="col-span-full row-span-1 bg-dark-gray">
-              { /* image */}
+            <div className="col-span-full flex md:justify-center row-span-1">
+              <Image
+                src="/images/triz-01.JPG"
+                alt="Triz - Imagem 01"
+                width={600}
+                height={600}
+                className="w-full md:max-w-[400px]"
+              />
             </div>
 
             <div className="col-span-full md:col-span-6">
@@ -29,7 +35,7 @@ export default function Home() {
         <div>
           <div className="grid grid-cols-2 gap-4 px-4 py-12 md:grid-cols-12">
             {images.map((image, index) => (
-              <div key={index} className={`w-full col-span-full flex ${isEven(index) ? "md:justify-start" : "md:justify-end"}`}>
+              <div key={index} className={`w-full col-span-full flex justify-center`}>
                 <Image
                   src={image.src}
                   alt={image.alt}
