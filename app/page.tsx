@@ -9,14 +9,6 @@ export default function Home() {
       <main className="bg-off-white">
         <section className="min-h-dvh flex">
           <div className="flex-1 grid grid-cols-2 grid-rows-[1fr] gap-4 px-4 py-8 md:grid-cols-12">
-            <div className="col-span-full md:col-span-6 flex flex-col gap-4 md:justify-center">
-              <h1 className="scroll-m-20 text-6xl font-bold tracking-tight lg:text-6xl">
-                Haaron Santana
-              </h1>
-
-              <p className="leading- font-semilbold text-2xl">Capturando momentos inesquecíveis com a lente de quem vê o mundo de uma forma única</p>
-            </div>
-
             <div className="col-span-full md:col-span-6 flex md:justify-center row-span-1">
               <Image
                 src="/images/triz-01.JPG"
@@ -25,6 +17,14 @@ export default function Home() {
                 height={600}
                 className="w-full md:max-w-[400px]"
               />
+            </div>
+
+            <div className="col-span-full md:col-span-6 flex flex-col gap-4 md:justify-center md:order-1">
+              <h1 className="scroll-m-20 text-6xl font-bold tracking-tight lg:text-6xl">
+                Haaron Santana
+              </h1>
+
+              <p className="leading- font-semilbold text-2xl">Capturando momentos inesquecíveis com a lente de quem vê o mundo de uma forma única</p>
             </div>
           </div>
         </section>
