@@ -78,7 +78,7 @@ export default function Home() {
                   alt="Haaron Santana"
                   width={600}
                   height={600}
-                  className="w-full"
+                  className="w-full h-auto object-fit"
                 />
               </div>
 
