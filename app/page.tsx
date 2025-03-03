@@ -4,7 +4,6 @@ import contacts from "@/data/contacts";
 import Image from "next/image";
 
 export default function Home() {
-  const isEven = (number: number): boolean => number % 2 === 0
   return (
     <>
       <main className="bg-off-white">
@@ -27,7 +26,7 @@ export default function Home() {
             </div>
 
             <div className="col-span-full md:col-span-3">
-              <p className="leading- font-semilbold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sed?</p>
+              <p className="leading- font-semilbold text-2xl">Capturando momentos inesquecíveis com a lente de quem vê o mundo de uma forma única</p>
             </div>
           </div>
         </section>
@@ -58,15 +57,29 @@ export default function Home() {
 
             <div className="flex flex-col gap-6 col-span-full md:col-span-6">
               <p className="leading-7 text-xl font-semibold">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sunt.
+                Minha Jornada na Fotografia e Audiovisual
               </p>
 
               <p className="leading-7">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis ab voluptatem. Fuga omnis ullam voluptatum ipsa harum blanditiis voluptas?
+                Minha jornada na fotografia começou como um hobby, dentro de um projeto social, utilizando apenas o celular. Percebi rapidamente que minhas imagens se destacavam, o que despertou uma paixão crescente pela fotografia.
+              </p>
+
+              <p className="leading-7">
+                Sou autodidata, aprendendo por meio de tutoriais e prática constante. Há quatro anos, me aprofundei no universo do audiovisual, passando por agências renomadas, onde refinei minha técnica e meu olhar criativo.
+              </p>
+
+              <p className="leading-7">
+                Hoje, meu trabalho é a fusão de uma visão única e uma técnica apurada, com o objetivo de capturar momentos que revelam a beleza e a essência de cada história.
               </p>
 
               <div className="bg-dark-gray h-[400px]">
-                { /* image */}
+                <Image
+                  src="/images/haaron.jpg"
+                  alt="Haaron Santana"
+                  width={600}
+                  height={600}
+                  className="w-full"
+                />
               </div>
 
               {/* <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
